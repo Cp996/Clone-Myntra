@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: cadetblue;
+            height: 30px;
+        }
+
+        nav {
+            padding: 5px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 55px;
+            padding: 5px;
+            color: black;
+        }
+
+        #second {
+            height: 50px;
+            width: 50px;
+            background-color: rgb(27, 207, 105);
+            border-radius: 50px;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: violet;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        #container {
+            border: 5px solid red;
+        }
+
+        #box4 {
+            position: fixed;
+            right: 10px;
+        }
+
+        #box2 {
+            z-index: 2px;
+            position: absolute;
+            left: 30px;
+        }
+
+        footer{
+            position: fixed;
+            bottom: 0px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main>
+        <div id="second"></div>
+        <div id="container">
+            <div id="box1" class="box">box1</div>
+            <div id="box2" class="box">box2</div>
+            <div id="box3" class="box">box3</div>
+        </div>
+        <div id="box4" class="box">box4</div>
+
+    </main>
+    <footer>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsa ex nostrum minus consequatur accusamus
+        iste soluta consectetur eligendi explicabo reprehenderit autem possimus ratione non numquam quia recusandae hic
+        magnam, dolor aut sint, nulla quaerat. Unde quae dolorem sapiente? Quod saepe enim ipsam molestiae illo mollitia
+        maiores officiis unde in.
+    </footer>
+
+</body>
+
+</html>
